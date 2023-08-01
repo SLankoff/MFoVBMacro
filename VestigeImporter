@@ -1,6 +1,6 @@
 //Intended for use with the homebrew Binder (Foundry Friendly) on 5etools. Import this as a script macro, place a Binder into the canvas, select it, and run the macro!
 //Note that if any spells or features share the name of a Vestige's feature there's a chance it could be deleted when dispelling the vestige. Keep an eye on differences if this happens, but relatively minor overall.
-const URL_BREW = `${final_brew_url}`;
+const URL_BREW = `https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/class/Middle%20Finger%20of%20Vecna%3B%20Binder(FoundryFriendly).json`;
 let targetactor = token.actor;
   let targetitems = targetactor.items;
   if (!targetactor.system.scale.binder)
